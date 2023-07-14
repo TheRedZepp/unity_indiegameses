@@ -28,5 +28,13 @@ public class Weapon : MonoBehaviour
         //shooting script
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
+       
+        //if (bullet != null)
+        
+            //bullet.transform.position = turret.transform.position;
+            //bullet.transform.rotation = turret.transform.rotation;
+            //bullet.SetActive(true);
+        
+
     }
 }
